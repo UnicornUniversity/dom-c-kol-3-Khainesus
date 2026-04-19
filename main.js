@@ -43,6 +43,7 @@ export function main(dtoIn) {
       workload: workload,
     });
   }
+  console.log(employees);
   // Return the complete list of employees
   return employees;
 }
